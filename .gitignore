@@ -1,0 +1,32 @@
+# Dependencies
+
+node_modules/
+
+# Build files
+
+dist/
+build/
+
+# Environment variables
+
+.env
+.env.local
+
+# Logs
+
+*.log
+
+# Operating system files
+
+.DS_Store
+Thumbs.db
+
+# IDE settings
+
+.vscode/
+.idea/
+
+# Temporary files
+
+*.tmp
+*.temp
