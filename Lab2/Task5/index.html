@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Task5</title>
+ <style>
+  body { font-family: Arial, sans-serif; background: #f5f5f5; margin: 0; padding: 20px;}
+  header, article, aside, footer { background: #fff; border: 1px solid #ddd; border-radius:8px; padding: 12px 16px}
+  header { margin-bottom: 16px; }
+  nav { margin-right: 15px; color: #444; }
+  .layout { display: flex; gap: 16px; }
+  .layout > main {flex: 3}
+  .layout > aside {flex: 1}
+  main {flex: 3; }
+  aside { flex: 1; align-self: flex-start; }
+  article { margin-bottom: 12px; }
+  time { color: #888; font-weight: 0,9em; }
+  footer { margin-top: 16px; text-align: center}
+ </style>
+</head>
+<body>
+ <header>
+    <h1><b>Останні новини</b></h1>
+   <nav>
+    <a href="#">Головна</a>
+    <a href="#">Новини</a>
+    <a href="#">Контакти</a>
+   </nav>
+ </header>
+
+ <div class="layout">
+ <main>
+  <article>
+   <h1>Відкрито новий кампус університету</h1>
+   <p><time datetime="2026-09-01">1 вересня 2026</time></p>
+   <p>Короткий текст новни про відкриття нового кампусу для студентів...</p>
+   <p><b>Автор:Ірина Коваль</b></p>
+  </article>
+  <article>
+  <h1>Стартував конкурс студентських проєктів</h1>
+   <p><time datetime="2026-09-05">5 вересня 2026</time></p>
+   <p>Опис умов участі та термінів подачі заявок на конкурс...</p>
+   <p><b>Автор:Олег Петренко</b></p>
+  </article>
+  <article>
+  <h1>Результати літньої практики</h1>
+   <p><time datetime="2026-09-10">10 вересня 2026</time></p>
+   <p>Короткий підсумок практики студентів у партнерських компаніях...</p>
+   <p><b>Автор:Марія Шевдчук</b></p>
+  </article>
+ </main>
+
+  <aside>
+   <h2>Популярне</h2>
+    <ul>
+     <li><a href="#">Новина 1</a></li>
+     <li><a href="#">Новина 2</a></li>
+     <li><a href="#">Новина 3</a></li>
+     <li><a href="#">Новина 4</a></li>
+    </ul>
+  </aside>
+  </div>
+
+ <footer>
+  <p>&copy;2026 Останні новини Станіслав Федін, гр. КН-21 <font color="blue">fedin.stanislav@chnu.edu.ua</font></p>
+ </footer> 
+
+</body>
+</html>
